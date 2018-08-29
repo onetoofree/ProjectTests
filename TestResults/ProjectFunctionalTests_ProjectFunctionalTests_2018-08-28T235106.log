@@ -1,0 +1,51 @@
+﻿2018-08-28T23:51:06.1805675+01:00;VSTestExecutionThread;Info;SpecFlow+Runner 1.8.2 execution started
+2018-08-28T23:51:06.2095032+01:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\peds\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.8.2\tools\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2018-08-28T23:51:06.3714992+01:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-08-28T23:51:06.3714992+01:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\peds\source\repos\ProjectFunctionalTests\ProjectFunctionalTests\bin\Debug\ProjectFunctionalTests.dll
+2018-08-28T23:51:06.3714992+01:00;VSTestExecutionThread;Info;Profile: ProjectFunctionalTests
+2018-08-28T23:51:14.4634967+01:00;Thread#11;Info;Discovering target: Default
+2018-08-28T23:51:14.4705181+01:00;Thread#11;Info;Discovering tests from assembly: C:\Users\peds\source\repos\ProjectFunctionalTests\ProjectFunctionalTests\bin\Debug\ProjectFunctionalTests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: ProjectFunctionalTests/ProjectFunctionalTests - 
+#1: Default - 
+#2: ProjectFunctionalTests - 
+#3: FeatureFileOne - 
+#4: Some Google search - TestAssembly:ProjectFunctionalTests/Feature:FeatureFileOne/Scenario:Some+Google+search
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for ProjectFunctionalTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have navigated to the Historic Photo Portal homepage
+Thread#0:T:done: FeatureOneSteps.GivenIHaveNavigatedToTheHistoricPhotoPortalHomepage() (6.6s)
+Thread#0:B:And I login using the following credentials
+Thread#0:B:  --- table step argument ---
+Thread#0:B:  | Username | Password |
+Thread#0:B:  | bob      | bob      |
+Thread#0:T:done: FeatureOneSteps.GivenILoginUsingTheFollowingCredentials(<table>) (0.2s)
+Thread#0:B:When I click login
+Thread#0:T:done: FeatureOneSteps.GivenIClickLogin() (1.2s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 8.3540013 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
